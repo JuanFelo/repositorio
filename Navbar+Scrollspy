@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <title>SCROLLSPY</title>
+    <style>
+        body{
+        position:relative;
+        }
+        .section{
+        padding-top:90px; 
+        }
+        .navbar{
+        background: #E4F1FE;
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target="#navegacion">
+<!--CABECERA-->
+<header>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion" aria-expanded="false">
+                    <span class="sr-only">MOSTRAR/OCULTAR</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">SOLUCIONES EL CUADERNO S.A.</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navegacion">
+                <ul class="nav navbar-nav" role="navigation">
+                    <li><a href="#seccion1">HISTORIA</a></li>
+                    <li><a href="#seccion2">MISION, VISION Y OBJETIVOS</a></li>
+                    <li><a href="#seccion3">CONTACTENOS</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<!--CONTENIDO-->
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <!--Sección 1-->
+        <div class="section" id="seccion1">
+            <h1>HISTORIA</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!</p>
+        </div>
+        <!--Sección 2-->
+        <div class="section" id="seccion2">
+            <h1>MISION, VISION Y OBJETIVOS</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!</p>
+        </div>
+        <!--Sección 3-->
+        <div class="section" id="seccion3">
+            <h1>CONTACTENOS</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda delectus repellat distinctio quae inventore, nesciunt qui. Ex placeat nihil non eaque repudiandae, fugit molestias magni esse, aut natus tempora!</p>
+        </div>
+    </div>
+</div>
+<!--SCRIPTS-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
