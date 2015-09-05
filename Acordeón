@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <title>Acordeon</title>
+</head>
+<body>
+<!--CONTENEDOR PRINCIPAL-->
+<div class="row">
+<br>
+<div class="col-md-6 col-md-offset-3">
+    <!--Acordeon-->
+    <div class="panel-group" id="acordeon" role="tablist" aria-multiselectable="true">
+          <!--PANEL 1-->
+          <div class="panel panel-warning">
+           <!--Encabezado del Panel 1-->
+            <div class="panel-heading" role="tab" id="encabezado1">
+               <h3 class="panel-title">
+                    <a role="button" href="#colapso1" data-toggle="collapse" data-parent="#acordeon" aria-expanded="true" aria-controls="colapso1">
+                    MISIÓN
+                    <span class="glyphicon glyphicon-wrench"></span>
+                    </a>
+               </h3>
+            </div>
+            <!--Cuerpo del Panel 1-->
+            <div id="colapso1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="encabezado1">
+               <div class="panel-body">
+                  Seguir convertiendo el servicio que brindamos en un arte, que implique pasión, compromiso y virtuosismo; permitiendo así la mayor                         satisfacción del consumidor.
+               </div>
+            </div>
+            </div>
+           <!--PANEL 2-->
+           <div class="panel panel-info">
+               <!--Encabezado del Panel 2-->
+               <div class="panel-heading" role="tab" id="encabezado2">
+                   <h3 class="panel-title">
+                       <a role="button" href="#colapso2" data-toggle="collapse" data-parent="#acordeon" aria-expanded="true" aria-controls="colapso2">
+                           VISIÓN
+                           <span class="glyphicon glyphicon-eye-open"></span>
+                       </a>
+                   </h3>
+               </div>
+               <!--Cuerpo del Panel 2-->
+               <div id="colapso2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="encabezado2">
+                   <div class="panel-body">
+                       Ser la primera opción en materia de diseño y desarrollo web y de aplicaciones en el mercado.
+                   </div>
+               </div>
+           </div>
+           <!--PANEL 3-->
+          <div class="panel panel-danger">
+              <!--Encabezado del Panel 3-->
+              <div class="panel-heading" role="tab" id="encabezado3">
+                  <h4 class="panel-title">
+                      <a href="#colapso3" data-toggle="collapse" data-parent="#acordeon" aria-expanded="true" aria-controls="colapso3">
+                          OBJETIVOS
+                          <span class="glyphicon glyphicon-screenshot"></span>
+                      </a>
+                  </h4>
+              </div>
+              <!--Cuerpo del Panel 3-->
+              <div id="colapso3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="encabezado3">
+                  <div class="tablist">
+                  <a href="#" class="list-group-item">Seguir trabajando intensamente en actualizar el código ante las últimas tecnologías</a>
+                  <a href="#" class="list-group-item">Utilizar las mejores metodologías posibles para el desarrollo</a>
+                  <a href="#" class="list-group-item">Brindar la mayor satisfacción al cliente mediante el arte del servicio</a>
+                  </div>
+          </div>
+        </div>
+    </div>
+</div>      
+</div>    
+<!--SCRIPTS NECESARIOS-->        
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
